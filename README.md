@@ -35,12 +35,6 @@ $ git clone https://github.com/brucx/mp-push-leancloud.git
 $ cd mp-push-leancloud
 ```
 
-安装依赖：
-
-```
-npm install
-```
-
 登录并关联应用：
 
 ```
