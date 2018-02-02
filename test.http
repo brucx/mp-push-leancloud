@@ -1,0 +1,7 @@
+POST https://mp-push.leanapp.cn/push HTTP/1.1
+content-type: application/json
+
+{
+  "channelName": "山楂",
+  "text": "OK"
+}

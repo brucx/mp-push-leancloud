@@ -1,0 +1,30 @@
+{
+  "name": "mp-push",
+  "version": "1.0.0",
+  "description": "微信公众号推送服务",
+  "main": "server.js",
+  "author": "Bruce Xiong <xiongty@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "fix": "standard --fix",
+    "test": "standard",
+    "start": "node server.js",
+    "dev": "nodemon server.js -- "
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "connect-timeout": "^1.7.0",
+    "express": "^4.12.3",
+    "leancloud-storage": "^3.0.0",
+    "leanengine": "^3.0.0",
+    "wechat": "^2.1.0",
+    "wechat-api": "^1.35.1"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": "9.x"
+  }
+}
