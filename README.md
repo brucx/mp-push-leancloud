@@ -28,7 +28,7 @@ LeanCloud 提供免费的后台托管，去[这里](https://leancloud.cn/dashboa
 
 ## 准备部署
 
-首先确认本机已经安装 [Node.js](http://nodejs.org/) 运行环境和 [LeanCloud 命令行工具](https://leancloud.cn/docs/leanengine_cli.html)，然后执行下列指令：
+首先确认本机已经安装 [LeanCloud 命令行工具](https://leancloud.cn/docs/leanengine_cli.html)，然后执行下列指令：
 
 ```
 $ git clone https://github.com/brucx/mp-push-leancloud.git
