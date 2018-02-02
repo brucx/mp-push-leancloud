@@ -72,6 +72,12 @@ content-type: application/json
 }
 ```
 
+或者
+
+```
+curl -X POST 'https://二级域名.leanapp.cn/push' -d '{ "channelName": "频道名称", "text": "OK" }' -H 'content-type: application/json'
+```
+
 ## 说明
 
 一个频道可以被多个微信订阅，一个微信也可以订阅多个频道。当有消息到达频道时，会向所有订阅的微信发送推送通知。
