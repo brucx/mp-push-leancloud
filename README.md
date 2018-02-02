@@ -56,9 +56,9 @@ URL 为 `https://二级域名.leanapp.cn/wx`
 
 Token 需和 `WX_TOKEN` 一致
 
-## 关注测试号
+## 测试接口
 
-公众号内发送 `link 频道名称` 绑定频道。
+关注测试号，发送 `link 频道名称` 绑定频道。
 
 发送 POST 请求触发推送
 
