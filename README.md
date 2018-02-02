@@ -57,12 +57,15 @@ lean deploy
 在[测试号管理](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)页面确认接口配置信息。
 
 URL 为 `https://二级域名.leanapp.cn/wx`
+
 Token 需和 `WX_TOKEN` 一致
 
 ## 关注测试号
 
 公众号内发送 `link ${频道名称}` 绑定频道。
+
 发送 POST 请求触发推送
+
 ```
 POST /push HTTP/1.1
 content-type: application/json
