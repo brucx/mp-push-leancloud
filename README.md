@@ -14,7 +14,9 @@
 
 LeanCloud 提供免费的后台托管，去[这里](https://leancloud.cn/dashboard/login.html#/signin)注册一个。
 
-然后新建一个应用，在云引擎的设置里面添加自定义环境变量：
+然后新建一个应用，在控制台创建 `Channel` 和 `UserToChannel` 两个 Class
+
+在云引擎的设置里面添加自定义环境变量：
 
 - `WX_APP_ID` 测试号 appID
 - `WX_APP_SC` 测试号 appsecret
