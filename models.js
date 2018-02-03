@@ -32,7 +32,7 @@ class User {
   async linkChannel (channel) {
     if (!channel.exist) {
       channel.owner = this
-      await channel.save()
+      await channel.create()
     }
     let userToChannelQuery = new AV.Query('UserToChannel')
     let result = await userToChannelQuery.equalTo('user', this.Object).equalTo('channel', channel.Object).first()
@@ -67,10 +67,12 @@ class Channel {
     }
   }
 
-  async save () {
+  async create () {
+    if (this.exist) return
     let channelObject = this.Object
     channelObject.set({name: this.name, owner: this.owner.Object})
     this.Object = await channelObject.save()
+    this.exist = true
   }
 
   async push (text) {
