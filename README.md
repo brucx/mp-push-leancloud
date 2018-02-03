@@ -1,5 +1,7 @@
 # MP-PUSH
 
+一个频道可以被多个微信订阅，一个微信也可以订阅多个频道。当有消息到达频道时，会向所有订阅的微信发送推送通知。
+
 开发此项目的目的是实现一个自己的“[Server酱](http://sc.ftqq.com/)”，方便自定义。
 
 零痛苦部署，极度简单的API，代码开源，自由扩展。
@@ -77,7 +79,3 @@ content-type: application/json
 ```
 curl -X POST 'https://二级域名.leanapp.cn/push' -d '{ "channelName": "频道名称", "text": "OK" }' -H 'content-type: application/json'
 ```
-
-## 说明
-
-一个频道可以被多个微信订阅，一个微信也可以订阅多个频道。当有消息到达频道时，会向所有订阅的微信发送推送通知。
