@@ -65,17 +65,7 @@ Token 需和 `WX_TOKEN` 一致
 发送 POST 请求触发推送
 
 ```
-POST /push HTTP/1.1
-content-type: application/json
-
-{
-  "channelName": "频道名称",
-  "text": "OK"
-}
-```
-
-或者
-
-```
-curl -X POST 'https://二级域名.leanapp.cn/push' -d '{ "channelName": "频道名称", "text": "OK" }' -H 'content-type: application/json'
+curl -X POST 'https://二级域名.leanapp.cn/push' \
+-H 'content-type: application/json' \
+-d '{ "channelName": "频道名称", "text": "OK" }'
 ```
