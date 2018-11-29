@@ -82,12 +82,10 @@ $ lean deploy
 
 ## 四、测试接口
 
-关注测试号，发送 `link 频道名称` 绑定频道。
-
-发送 POST 请求触发推送：
-
-```sh
-curl -X POST 'https://二级域名.leanapp.cn/push' \
--H 'content-type: application/json' \
--d '{ "channelName": "频道名称", "text": "OK" }'
-```
+1. 关注测试号，发送 `link 频道名称` 绑定频道。
+2. 发送请求
+  - 请求方式：`POST`
+  - 请求地址：`https://二级域名.leanapp.cn/push`
+  - Header：`content-type: application/json`
+  - Body：`{ "channelName": "频道名称", "text": "OK" }`
+  
