@@ -1,5 +1,9 @@
 # MP-PUSH
 
+
+## LeanCloud 不再提供二级域名，建议使用docker版本，地址https://github.com/brucx/mp-push-nestjs
+
+
 一个频道可以被多个微信订阅，一个微信也可以订阅多个频道。当有消息到达频道时，会向所有订阅的微信推送通知。
 
 开发此项目的目的是实现一个自己的“[Server酱](http://sc.ftqq.com/)”，方便自定义。
