@@ -12,9 +12,9 @@
     "dev": "nodemon server.js -- "
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "connect-timeout": "^1.7.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "leancloud-storage": "^3.14.1",
     "leanengine": "^3.4.0",
     "wechat": "^2.1.0",
