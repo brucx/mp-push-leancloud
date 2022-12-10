@@ -14,7 +14,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-timeout": "^1.7.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "leancloud-storage": "^3.14.1",
     "leanengine": "^3.4.0",
     "wechat": "^2.1.0",
